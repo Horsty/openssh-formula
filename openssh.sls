@@ -2,11 +2,7 @@
 # vim: ft=yaml
 ---
 sshd_config:
-  # This keyword is totally optional
-  ConfigBanner: |
-    # Alternative banner for the config file
-    # (Indented) hash signs lose their special meaning here
-    # and the lines will be written as-is.
+  Banner: /etc/ssh/banner
   Port: 22
   Protocol: 2
   #HostKey:
